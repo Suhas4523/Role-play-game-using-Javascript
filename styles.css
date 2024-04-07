@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(111, 68, 147);
+    background-image : url("desktop-wallpaper-2018-game-the-evil-within-2-dark.jpg");
+    background-size : cover;
+  }
+  
+  #text {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family :'Courier New', Courier, monospace;
+    border-radius : 3px ;
+  }
+  
+  #game {
+    max-width: 500px;
+    max-height: 600px;
+    background-color: lightgray;
+    color: white;
+    margin-top : 80px ;
+    margin-left : 445px ;
+    padding : 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 16px 2px rgb(255, 255, 255);
+  }
+  
+  #controls {
+    border: 1px black solid;
+    padding: 5px;
+    border-radius : 3px;
+  }
+  
+#monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+
+#button1, #button2, #button3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding : 10px;
+    border-radius : 15px;
+    margin : 10px;
+}
+
+#stats
+{ 
+    padding : 20px;
+    margin : 13px; 
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px black solid;
+    color: black;
+    width : 459px;
+    margin-left : 0px;
+    border-radius: 3px;
+    margin-top : 5px;
+}
+
+.stat{
+    padding : 10px;
+    font-size: 23px;
+}
+
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size: 65px;
+  text-align: center;
+  color: whitesmoke;
+  margin-right : 29px;
+  margin-top : 84px;
+}
+
+#button1:hover{
+  background-color: aqua;
+  size : 10px;
+}
+
+#button2:hover{
+  background-color: aqua;
+  size : 10px;
+}
+
+#button3:hover{
+  background-color: aqua;
+  size : 10px;
+}
